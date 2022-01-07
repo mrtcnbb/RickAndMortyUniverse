@@ -1,7 +1,8 @@
-import { BrowserRouter, Routes, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 //pages
-import Home from './pages/Home/Home';
+import Home from './pages/home/Home';
+import Character from './pages/character/Character';
 
 //components
 import { Navbar } from './components/navbar/Navbar';
@@ -15,9 +16,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route>
-            <Home exact path="/" />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route path="/character/:id" component={Character} />
         </Switch>
       </BrowserRouter>
     </div>

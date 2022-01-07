@@ -11,8 +11,8 @@ export function Navbar() {
     <nav className={styles.navbar}>
       <ul>
         <li>
-          <Link exact to="/">
-            <img src={RickMorty} className={styles.image} alt="pic" />
+          <Link to="/">
+            <h1 className={styles.title}>Rick and Morty</h1>
           </Link>
         </li>
       </ul>

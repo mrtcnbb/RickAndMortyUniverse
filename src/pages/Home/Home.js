@@ -24,10 +24,10 @@ export default function Home() {
       {error && <p className="error">{error}</p>}
       {isPending && <p className="loading">Loading...</p>}
       {character && (
-        <div>
+        <>
           <h1 className={styles.title}>Rick and Morty Characters</h1>
           <CharacterList character={character} />
-        </div>
+        </>
       )}
     </div>
   );

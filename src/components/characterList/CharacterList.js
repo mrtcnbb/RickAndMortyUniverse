@@ -10,8 +10,8 @@ export function CharacterList({ character }) {
         <div key={cha.id} className={styles.card}>
           <img src={cha.image} className={styles.image} width="130" height="130" alt="chapic" />
           <h3>{cha.name}</h3>
-          <p style={{ margin: '5px auto' }}>Species: {cha.species}</p>
-          <Link>Character Details</Link>
+          <p className={styles.species}>Species: {cha.species}</p>
+          <Link to={`/character/${cha.id}`}>Character Details</Link>
         </div>
       ))}
     </div>

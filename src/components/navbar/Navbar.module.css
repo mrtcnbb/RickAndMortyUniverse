@@ -14,6 +14,10 @@
   padding: 0;
 }
 
+.title {
+  font-weight: 900;
+}
+
 .image {
   width: 10vw;
 }
@@ -22,11 +26,13 @@
   cursor: pointer;
 }
 
-.navbar button,
 .navbar a {
-  margin-left: 16px;
-}
-.navbar a {
-  color: #333;
+  color: #999999;
   text-decoration: none;
+  transition: 3s;
+}
+
+.navbar a:hover {
+  color: rgb(50, 193, 212);
+  transition: 0.5s;
 }

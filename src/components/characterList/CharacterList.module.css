@@ -12,12 +12,12 @@
   align-items: center;
   text-align: center;
   padding: 20px;
-  background: rgb(54, 244, 0);
+  background: rgb(0, 255, 16);
   background: linear-gradient(
     180deg,
-    rgba(54, 244, 0, 0.8802871490393032) 0%,
-    rgba(167, 167, 167, 1) 18%,
-    rgba(231, 231, 231, 1) 76%
+    rgba(0, 255, 16, 1) 0%,
+    rgba(163, 163, 163, 0.9139005944174545) 49%,
+    rgba(232, 232, 232, 1) 83%
   );
   color: #333;
   border-radius: 10px;
@@ -49,4 +49,8 @@
   padding: 8px;
   border-radius: 4px;
   margin: auto 0 0 0;
+}
+
+.species {
+  margin: 5px auto;
 }
