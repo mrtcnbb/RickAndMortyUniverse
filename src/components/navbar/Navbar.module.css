@@ -7,6 +7,7 @@
 }
 .navbar ul {
   display: flex;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 960px;
   align-items: center;
@@ -16,6 +17,7 @@
 
 .title {
   font-weight: 900;
+  font-size: 2rem;
 }
 
 .image {
@@ -29,10 +31,10 @@
 .navbar a {
   color: #999999;
   text-decoration: none;
-  transition: 3s;
+  transition: 4s;
 }
 
 .navbar a:hover {
-  color: rgb(50, 193, 212);
+  color: rgb(64, 213, 233);
   transition: 0.5s;
 }

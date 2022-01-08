@@ -17,8 +17,6 @@ export default function Home() {
     getCharacter(data);
   }, [data, getCharacter]);
 
-  console.log(character);
-
   return (
     <div className={styles.home}>
       {error && <p className="error">{error}</p>}
